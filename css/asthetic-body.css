@@ -4,7 +4,14 @@ body, html {
   }
  
 .main {
-    margin-left: 50px;
+
+    background: url(../img/asthetic-body-pic.png) center no-repeat;
+    width: 100%;
+    height: 750px;
+
+    background-size: cover;
+    position: relative;
+    perspective: 100rem;
 }
 
 
@@ -50,6 +57,12 @@ h4 {
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
-    .container .container-duo .img-content .img-content-2 {
+    .container .container-duo .img-content .img-content-2 .main {
       width:100%;
     }
+
+    @media only screen and (max-width:480px) {
+        /* For mobile phones: */
+        .container .container-duo .img-content .img-content-2 .main {
+          width:100%;
+        }
