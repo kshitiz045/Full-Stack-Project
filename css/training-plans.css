@@ -17,11 +17,7 @@ h2 {
 .text1{
       color: red;
       }
-      .sec3{
-          margin-top: 0px;
-          display: inline-block;
-          
-      }
+    
       h5{
           color: darkslategray;
       }
@@ -32,6 +28,23 @@ h2 {
         margin-top: 10px;
         
       }
+
+.duo1 {
+    border: 3px solid green;
+    width: auto;
+    height: 300px;
+    display: flex;
+
+}
+
+.s1 {
+   float: center;
+    flex: 33.33%;
+    padding: -50px;
+    padding-left: 250px;
+    margin: 80px;
+    display: inline;
+}
 .footer_content{
 color: white;
 text-align: center;
