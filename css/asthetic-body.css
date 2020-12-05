@@ -17,6 +17,7 @@ width: 100vw;
 background: url(../img/asthetic-body-pic.png) center no-repeat;
 height: 100vh;
 animation: contact-bg 35s infinite;
+background-size: 100% 100%;
 
 }
 @keyframes contact-bg {
