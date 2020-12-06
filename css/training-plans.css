@@ -1,202 +1,76 @@
-html,body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-*{
-margin: 0;
-padding: 0;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-box-sizing: border-box;
-} 
-h1{
-    margin-top: 120px;
-}
-
-.sec1 {
-
-    width: 100vw;
-    background: url(../img/training-plan-front.png) center no-repeat;
-    height: 100vh;
-    animation: contact-bg 35s infinite;
-    background-size: 100% 100%;
-    
+.i1{
+    margin-left: 320px;
+    display: inline;
+  }
+  @media(max-width: 1030px){
+    .i1{
+      display: inline;
+      margin-left: 120px;
     }
-.sec2{
-    display: inline;
-    margin-left: 320px;
-    margin-top: 30px;
-    
-}
-.text1{
-      color: red;
-      }
-      .sec3{
-          margin-top: 0px;
-          display: inline-block;
-          
-      }
-      h5{
-          color: darkslategray;
-      }
-    
-      footer{
-        background-color: black;
-        height: 50px;
-        margin-top: 10px;
-        
-      }
-.footer_content{
-color: white;
-text-align: center;
-margin-top: 50px;
-}
-
-      @media(max-width: 1120px){
-        h1{
-    margin-top: 120px;
-}
-.sec2{
-    display: inline;
-    margin-left: 320px;
-    margin-top: 50px;
-    
-}
-.text1{
-      color: red;
-      }
-      .sec3{
-          margin-top: 50px;
-          display: block;
-          
-         text-align: center;
-          
-      }
-      h5{
-          color: darkslategray;
-      }
-      
-     
-      footer{
-        margin-top: 50px;
-        width: 100%;
-        background-color: black;
-        height: 70px;
-        
-      }
-      .footer_content{
-color: white;
-text-align: center;
-margin-top: 50px;
-font-size: 50px;
-}
-      .text{
-margin-left: 450px;
-      }
-      }
-
-
-
-
-
-      @media(max-width: 900px){
-        h1{
-    margin-top: 60px;
-    text-align: center;
-    font-size: 60px;
-    margin-left: 40px;
-}
-.sec2{
-    display: block;
-    margin-left: 320px;
-    margin-top: 50px;
-    
-}
-.text1{
-      color: red;
-      }
-      .sec3{
-          margin-top: 50px;
-          display: block;
-         
-         text-align: center;
-         margin-left: 110px;
-         padding: 10px;
-         
-          
-      }
-      h5{
-          color: darkslategray;
-      }
-      
-     
-      footer{
-        margin-top: 50px;
-        width: 1024px;
-        background-color: black;
-        height: 90px;
-      }
-      .footer_content{
-color: white;
-text-align: center;
-font-size: 50px;
-}
-      .text{
-margin-left: 270px;
-      }
-      }
-
-
-
-
-
-      @media(max-width: 650px){
-        h1{
-    margin-top: 60px;
-   
-    font-size: 50px;
-    width: 950px;
   
-}
-.sec2{
-    display: block;
-    margin-left: 320px;
-    margin-top: 50px;
-    
-}
-.text1{
-      color: red;
-      }
-      .sec3{
-          margin-top: 50px;
-          display: block;
-         
-         text-align: center;
-         margin-left: 10px;
-         padding: 10px;
-         width: 950px;
-         
-          
-      }
-      h5{
-          color: darkslategray;
-      }
-      
-     
-      footer{
-        margin-top: 50px;
-        width: 1024px;
-        background-color: black;
-        height: 90px;
-      }
-      .footer_content{
-color: white;
-text-align: center;
-font-size: 50px;
-}
-      .text{
-margin-left: 430px;
-      }
-      }
+  }
+  @media(max-width: 850px){
+    .i1{
+      display: inline;
+      margin-left: 60px;
+    }
+   
+    }
+    @media(max-width: 770px){
+    .i1{
+      display: inline;
+      margin-left: 50px;
+    }
+   
+    }
+    @media(max-width: 752px){
+    .i1{
+      display: inline;
+      margin-left: 30px;
+    }
+   
+    }
+    @media(max-width: 734px){
+    .i1{
+      display: inline;
+      margin-left: 20px;
+    }
+   
+    }
+    @media(max-width: 725px){
+    .i1{
+      display: inline;
+      margin-left: 10px;
+    }
+   
+    }
+    @media(max-width: 710px){
+    .i1{
+      display: block;
+      margin-left: 140px;
+    }
+    .i2{
+      margin-left: 140px;
+    }
+   
+    }
+    @media(max-width: 528px){
+    .i1{
+      display: block;
+      margin-left: 100px;
+    }
+    .i2{
+      margin-left: 100px;
+    }
+   
+    }
+    @media(max-width: 466px){
+    .i1{
+      display: block;
+      margin-left: 50px;
+    }
+    .i2{
+      margin-left: 50px;
+    }
+   
+    }
