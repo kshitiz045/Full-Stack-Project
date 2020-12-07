@@ -188,6 +188,10 @@ html {
     font-size: 8rem;
     color: var(--white-color);
 }
+.heading1 {
+    font-size: 5rem;
+    color: var(--white-color);
+}
 
 .header-paragraph {
     font-size: 3rem;
